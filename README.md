@@ -2,6 +2,8 @@
 
 Around the U.S
 Autor: Marcos Santiz
+Enlace: https://mbsantiz.github.io/web_project_around/
+
 Proyecto 7 BootCamp Software Developer
 Around the U.S es una página web interactiva donde los usuarios pueden explorar diversos destinos turísticos en los Estados Unidos, descubrir imágenes de lugares icónicos y editar su perfil personal.
 
