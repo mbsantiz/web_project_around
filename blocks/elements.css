@@ -1,0 +1,82 @@
+.elements {
+  width: 100%;
+  max-width: 880px;
+  display: grid;
+  margin: 0 auto;
+  padding-top: 50px;
+  grid-template-columns: repeat(auto-fit, 282px);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  gap: 17px;
+  justify-content: center;
+  align-items: center;
+}
+
+.elements__item {
+  margin: 0;
+  width: 100%;
+  max-height: 361px;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.elements__image {
+  max-height: 282px;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.elements__foot {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15px;
+  margin-left: 21px;
+  text-align: left;
+  padding: 0;
+}
+
+.elements__foot-text {
+  font-family: Inter;
+  font-weight: 900;
+  font-size: 24px;
+  height: 100%;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.elements__foot-button {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+.elements__foot-button:hover {
+  opacity: 50%;
+  cursor: pointer;
+}
+.elements__foot-button.active:hover {
+  opacity: 1;
+}
+.elements__foot-button__image {
+  max-width: 21px;
+}
