@@ -77,6 +77,6 @@
 .elements__foot-button.active:hover {
   opacity: 1;
 }
-.elements__foot-button__image {
+.elements__button-image {
   max-width: 21px;
 }

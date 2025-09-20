@@ -33,25 +33,25 @@
     flex-direction: column;
   }
 
-  .cover__container__text {
+  .cover__text {
     padding-left: 0;
     margin-top: 30px;
     text-align: center;
   }
 
-  .cover__container__info {
+  .cover__info {
     gap: 10px;
     margin-bottom: 14px;
     padding-bottom: 0;
     padding-top: 0;
   }
 
-  .cover__container__info-name__button-image {
+  .cover__button-image {
     padding: 5.25px;
     max-width: 7.5px;
   }
 
-  .cover__container__info-name {
+  .cover__name {
     font-family: Inter;
     font-weight: 500;
     font-size: 22px;
@@ -60,12 +60,12 @@
     text-align: center;
   }
 
-  .cover__container__info-role {
+  .cover__role {
     margin-bottom: 36px;
     font-size: 14px;
   }
 
-  .cover__container__plusbutton-image {
+  .cover__plusbutton-image {
     max-width: 16px;
     padding: 17px 133px;
   }
@@ -100,7 +100,7 @@
     margin-bottom: 0;
   }
 
-  .popup__form__text {
+  .popup__input {
     width: 238px;
   }
 
@@ -112,7 +112,7 @@
     font-size: 14px;
   }
 
-  .popup__form__line {
+  .popup__line {
     width: 238px;
   }
 

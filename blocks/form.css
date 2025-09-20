@@ -43,7 +43,7 @@
   margin-top: 24px;
 }
 
-.popup__form__text {
+.popup__input {
   display: block;
   padding: 0;
   border-color: none;
@@ -59,7 +59,7 @@
   color: #c4c4c4;
 }
 
-.popup__form__text:not(:placeholder-shown) {
+.popup__input:not(:placeholder-shown) {
   color: #000;
 }
 
@@ -95,7 +95,7 @@
   outline: none;
   box-shadow: none;
 }
-.popup__form__line {
+.popup__line {
   width: 358px;
   margin-top: 0;
 }
